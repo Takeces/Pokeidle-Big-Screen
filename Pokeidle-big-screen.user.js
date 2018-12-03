@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pokeidle Big Screen
 // @namespace    Pokeidle
-// @version      1
+// @version      1.0
 // @description  Adds CSS to extend the game view for fullscreen browser windows 
 // @author       Akerus aka Takeces
 // @match        https://richardpaulastley.github.io/
