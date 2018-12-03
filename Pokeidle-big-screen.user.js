@@ -3,7 +3,7 @@
 // @namespace    Pokeidle
 // @version      1.0
 // @description  Adds CSS to extend the game view for fullscreen browser windows 
-// @author       Akerus aka Takeces
+// @author       Takeces aka Akerus
 // @match        https://richardpaulastley.github.io/
 // @grant        GM_addStyle
 // ==/UserScript==
