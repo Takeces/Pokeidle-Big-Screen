@@ -11,6 +11,7 @@
 (function() {
 
     GM_addStyle('body {background-color: rgb(82, 153, 228); margin: 0;}');
+    GM_addStyle('.container {background-color: rgb(193, 193, 193);}');
     GM_addStyle('#gameContainer {width: initial; height: initial; margin: 0; padding: 0; box-shadow: none; background-color: transparent; position: initial;}');
     GM_addStyle('#player {left: 270px; top: initial; bottom: 35px; float: none;}');
     GM_addStyle('#enemy {position: absolute; top: 10px; right: 270px; float: none;}');
