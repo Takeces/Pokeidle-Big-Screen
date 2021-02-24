@@ -1,18 +1,17 @@
 // ==UserScript==
 // @name         Pokeidle Big Screen
 // @namespace    Pokeidle
-// @version      1.01
+// @version      2
 // @description  Adds CSS to extend the game view for fullscreen browser windows 
 // @author       Takeces aka Akerus
-// @match        https://richardpaulastley.github.io/
+// @match        https://pokeidle.net/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
 (function() {
 
-    GM_addStyle('body {background-color: rgb(82, 153, 228); margin: 0;}');
-    GM_addStyle('.container {background-color: rgb(193, 193, 193);}');
-    GM_addStyle('#gameContainer {width: initial; height: initial; margin: 0; padding: 0; box-shadow: none; background-color: transparent; position: initial;}');
+    GM_addStyle('body {margin: 0;}');
+    GM_addStyle('#gameContainer {width: 100vw; height: 100vh; margin: 0; padding: 0; box-shadow: none; position: initial;}');
     GM_addStyle('#player {left: 270px; top: initial; bottom: 35px; float: none;}');
     GM_addStyle('#enemy {position: absolute; top: 10px; right: 270px; float: none;}');
     GM_addStyle('#playerPokes {width: 258px; position: absolute; top: 10px; bottom: 10px; left: 10px; height: initial; max-height: none; float: none;}');
